@@ -33,8 +33,8 @@ void sound(void){
 int login(Data students[], int count, int id, int password){
 
 
-    for (int i = 0; i < count; i++)
-    {
+    for (int i = 0; i < count; i++){
+    
         if (students[i].ID == id && students[i].password == password)
         {
             return i;

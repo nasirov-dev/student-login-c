@@ -43,8 +43,8 @@ int login(Data students[], int count, int id, int password){
     return -1;
 } 
 
-int readInt(const char *prompt, int *value){
-    printf("%s", prompt);
+int readInt(const char *word, int *value){
+    printf("%s", word);
 
     if (scanf("%d", value) != 1){
         int clean;

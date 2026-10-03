@@ -47,8 +47,8 @@ int readInt(const char *prompt, int *value){
     printf("%s", prompt);
 
     if (scanf("%d", value) != 1){
-        int c;
-        while ((c = getchar()) != '\n' && c != EOF);
+        int clean;
+        while ((clean = getchar()) != '\n' && c != EOF);
         return 0;  
     }
     return 1;       
